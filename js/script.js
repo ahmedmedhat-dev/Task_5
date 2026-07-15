@@ -21,7 +21,8 @@ product_btn.forEach(button => {
         var p1 = document.createElement("p")
         p1.innerHTML = prod_title.textContent
         p1.style.textTransform = "capitalize" 
-        p1.style.color = "#ffffff" 
+        p1.style.color = "#0b0bca" 
+        p1.style.fontSize = "22px" 
         product_div.appendChild(p1);
 
         if (product_div.innerHTML != "") {
